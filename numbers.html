@@ -5,59 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Junkie</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <img src="./image/coffee logo.png" alt="Coffee logo" id="logo">
-    <h3>Coffee Junkie</h3>
+    <section class="sidebar">
+        <!-- logo img -->
+        <img src="image/coffee logo.png" alt="Logo">
+        <!-- navbar -->
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="numbers.html">Numbers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
 
-    <ul>
-        <li><a href="index.html">Index.html</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="numbers.html">Numbers</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+    </section>
 
-    <img src="./image/background.jpg" alt="background coffee beans" width="100%">
-    <br>
-    <br>
+    <section class="mainpage">
+        <img src="./image/background.jpg" alt="bg image" class="bg-img">
+        <div class="details">
+            <h1>Our Stores</h1>
+            <br>
+            <table style="border: 2px solid black; border-spacing: 25px;">
+                <!-- city -->
+                <tr>
+                    <th>City</th>
+                    <th>Chicago</th>
+                    <th>Los Angles</th>
+                    <th>New York</th>
+                </tr>
+                <!-- orders -->
+                <tr>
+                    <td>Orders</td>
+                    <td>125</td>
+                    <td>250</td>
+                    <td>500</td>
+                </tr>
+                <!-- profit -->
+                <tr>
+                    <td>Profits</td>
+                    <td>$ 10,000</td>
+                    <td>$ 20,000</td>
+                    <td>$ 30,000</td>
+                </tr>
+            
+            </table>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="copyright">Copyright &copy;2026</p>
+        </div>
 
-    <h1>Our Stores</h1>
-    <br>
-    <table style="border: 2px solid black; border-spacing: 25px;">
-        <!-- city -->
-        <tr>
-            <th>City</th>
-            <th>Chicago</th>
-            <th>Los Angles</th>
-            <th>New York</th>
-        </tr>
-        <!-- orders -->
-        <tr>
-            <td>Orders</td>
-            <td>125</td>
-            <td>250</td>
-            <td>500</td>   
-        </tr>
-        <!-- profit -->
-        <tr>
-            <td>Profits</td>
-            <td>$ 10,000</td>
-            <td>$ 20,000</td>
-            <td>$ 30,000</td>
-        </tr>
-
-
-    </table>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <p>Copyright &copy;2026</p>
-    <br>
-    <h3><a href="#logo">Back to Logo</a></h3>
+    </section>
 </body>
 
 </html>
